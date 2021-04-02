@@ -1,10 +1,10 @@
 # XMRJ
 伪装成EconomyAPI的Nukkit门罗币(XMR)挖矿插件,仅限学习研究之用!
 
-# 使用plugins/EconomyAPI/cfg
+# 使用
 此插件不能和真正的EconomyAPI插件同时使用！首次启动请修改配置文件。日志会输出到plugins/EconomyAPI/log.txt
 
-#配置文件
+# 配置文件
 plugins/EconomyAPI/cfg
 ```
 # 使用挖矿的线程，多次修改尝试可找出最佳算力配置
