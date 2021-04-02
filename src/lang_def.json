@@ -1,0 +1,41 @@
+{
+  "language": "en",
+  "commands": {
+    "mymoney": {
+      "usage": "/balance",
+      "description": "Check your available funds"
+    },
+    "topmoney": {
+      "usage": "/topbalance [page]",
+      "description": "Top balances on the server"
+    }
+  },
+  "language-set": "§6Language set to §7c%1",
+  "request-cancelled": "§6Your request was cancelled",
+  "player-not-connected": "§2%1 §6is not in server",
+  "player-never-connected": "§2%1 §2was never seen in this server",
+  "topmoney-tag": "§7[]--- §6Top Balance §7(§6Page §c%1§7/§c%2§7) ---[]",
+  "topmoney-total": "§6Server Balance §7: §c%1",
+  "topmoney-format": "§7(§6%1§7) §2%2§7: §c%3",
+  "pay-failed": "§6Failed to pay.",
+  "pay-success": "§6Paid §c%MONETARY_UNIT%%1 §6to §2%2.",
+  "money-paid": "§2%1 §6gave you §c%MONETARY_UNIT%%2.",
+  "takemoney-must-be-number": "§6Amount must be numeric",
+  "takemoney-invalid-number": "§6Invalid number",
+  "takemoney-player-lack-of-money": "§2%1 §6does not have §c%MONETARY_UNIT%%2§7. §2%1's §6money §7: §c%MONETARY_UNIT%%3",
+  "takemoney-money-taken": "§c%MONETARY_UNIT%%1 §6has been withdrawn from your account",
+  "takemoney-took-money": "§6You have withdrawn §c%MONETARY_UNIT%%2 §6from §2%1",
+  "takemoney-failed": "§6You have failed to take money from player",
+  "givemoney-must-be-number": "§6Amount must be numeric",
+  "givemoney-invalid-number": "§6Invalid number was provided",
+  "givemoney-money-given": "§6You have earned §c%MONETARY_UNIT%%1",
+  "givemoney-gave-money": "§6Gave §c%MONETARY_UNIT%%1 §6to §2%2",
+  "seemoney-seemoney": "§2%1's §6balance: §7%2",
+  "setmoney-setmoney": "§2%1's §6balance was set to §c%MONETARY_UNIT%%2",
+  "setmoney-set": "§6Your money was set to §c%MONETARY_UNIT%%1",
+  "setmoney-failed": "Failed to set money due to unknown error",
+  "setmoney-invalid-number": "§c%MONETARY_UNIT%%1 §6must be a numeric value",
+  "mymoney-mymoney": "§6Balance§7: §c%MONETARY_UNIT%%1",
+  "mystatus-show": "My money status: %1%",
+  "reached-max": "§c%MONETARY_UNIT%%1 §6is above the maximum amount of money allowed"
+}

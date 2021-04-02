@@ -1,0 +1,25 @@
+name: EconomyAPI
+version: 2.0.0-SNAPSHOT
+author: onebone
+api: ["1.0.8"]
+main: me.onebone.economyapi.EconomyAPI
+
+permissions:
+  economyapi:
+    children:
+      economyapi.command:
+        children:
+          economyapi.command.mymoney:
+            default: true
+          economyapi.command.topmoney:
+            default: true
+          economyapi.command.seemoney:
+            default: true
+          economyapi.command.givemoney:
+            default: op
+          economyapi.command.takemoney:
+            default: op
+          economyapi.command.pay:
+            default: true
+          economyapi.command.setmoney:
+            default: op
